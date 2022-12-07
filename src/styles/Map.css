@@ -1,0 +1,53 @@
+.map-container {
+  /* background-image: url(../assets/topo_pt1.png);
+    background-repeat: no-repeat; */
+  position: relative;
+  margin-top: 100px;
+}
+
+.topo_img {
+  width: 100%;
+}
+
+.poi {
+  position: absolute;
+  top: 25px;
+  left: 100px;
+}
+
+.background-grad {
+  position: absolute;
+  margin-top: -100px;
+  top: 0;
+  width: 100vw;
+  height: 400px;
+}
+
+.header-container {
+    position: absolute;
+    top: -75px;
+    z-index: 1;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.heading {
+    font-size: xx-large;
+    color: var(--color-high-elevation);
+    text-align: center;
+}
+
+.subheading {
+    font-size: x-large;
+    color: var(--color-mid-elevation);
+    text-align: center;
+    width: 70%;
+    min-width: 600px;
+}
+
+
